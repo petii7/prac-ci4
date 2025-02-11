@@ -1,0 +1,187 @@
+/*FUENTES*/
+
+.orbitron-uniquifier {
+    font-family: "Orbitron", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.staatliches-regular {
+    font-family: "Staatliches", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*----------------------------------------------*/
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(48, 48, 48);
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+/*----------------------------HOME----------------------------*/
+
+/*------------HEADER------------*/
+
+header h1{
+    font-family: 'Orbitron', serif;
+    font-weight: 800;
+    text-align: center;
+    font-size: 70px;
+}
+
+h2{
+    font-family: 'Staatliches', serif;
+    font-weight: 400;
+    text-align: center;
+    font-style: italic;
+    font-size: 45px;
+    color: white;
+    margin-bottom: 80px;
+}
+
+.letras-blancas{
+    color: white;
+}
+
+.letras-azules{
+    color: rgb(43, 160, 255);
+}
+
+/*------------MAIN------------*/
+
+#opciones{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0px;
+}
+
+#opciones .opcion{
+
+    /*CAJAS*/
+
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: rgb(51, 51, 51);
+    box-shadow: 0px 0px 10px 1px rgb(39, 39, 39);
+    cursor: pointer;
+    transition: 0.5s;
+
+    /*FUENTE*/
+
+    font-family: 'Staatliches', serif;
+    font-style: italic;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    align-content: center;
+
+}
+
+/*OPCIONES*/
+
+#opciones .opcion:hover{
+    transform: scale(1.01);
+    box-shadow: 0px 0px 10px 1px rgb(165, 165, 165);
+}
+
+#opciones .opcion.utilidad{
+    background-image: url(images/throwing-nade.png);
+    background-size: cover;
+}
+
+#opciones .opcion.pizarra{
+    background-image: url(images/pizarra.png);
+    background-size: cover;
+}
+
+#opciones .opcion.comunidad{
+    background-image: url(images/comunidad.png);
+    background-size: cover;
+}
+
+#opciones .opcion .texto-opcion{
+    text-shadow: 0px 0px 10px black ;
+}
+
+/*BOTON UNETE A NOSOTROS*/
+
+#unete-a-nosotros{
+    font-family: 'Orbitron', serif;
+    text-align: center;
+}
+
+#unete-a-nosotros p{
+    color: white;
+    font-size: 20px;
+}
+
+#unete-a-nosotros a{
+    border-radius: 10px;
+    padding: 10px 30px;
+    background-color: rgb(43, 160, 255);
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+#unete-a-nosotros a:hover{
+    background-color: rgb(37, 136, 218);
+}
+/*----------------------------MAPAS----------------------------*/
+
+/*------------MAIN------------*/
+
+#mapas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    gap: 60px;
+}
+
+#mapas .mapa{
+    
+    /*CAJAS*/
+
+    width: 270px;
+    height: 270px;
+    border-radius: 20px;
+    background-color: rgb(51, 51, 51);
+    box-shadow: 0px 0px 10px 1px rgb(39, 39, 39);
+    cursor: pointer;
+    transition: 0.5s;
+
+    /*FUENTE*/
+
+    font-family: 'Staatliches', serif;
+    font-style: italic;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    align-content: center;
+
+}
+
+#mapas .mapa:hover{
+    transform: scale(1.01);
+    box-shadow: 0px 0px 10px 1px rgb(165, 165, 165);
+}
+
+#mapas .mapa .texto-mapa{
+    text-shadow: 0px 0px 10px black ;
+}
+
+#mapas .mapa.mirage{
+    background-image: url(images/mirage.webp);
+    background-size: cover;
+}
