@@ -146,7 +146,7 @@ h2{
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
-    gap: 60px;
+    gap: 70px;
 }
 
 #mapas .mapa{
@@ -184,4 +184,53 @@ h2{
 #mapas .mapa.mirage{
     background-image: url(images/mirage.webp);
     background-size: cover;
+}
+
+#mapas .mapa.inferno{
+    background-image: url(images/inferno.webp);
+    background-size: cover;
+}
+
+#mapas .mapa.ancient{
+    background-image: url(images/ancient.webp);
+    background-size: cover;
+}
+
+#mapas .mapa.anubis{
+    background-image: url(images/anubis.webp);
+    background-size: cover;
+}
+
+#mapas .mapa.train{
+    background-image: url(images/train.webp);
+    background-size: cover;
+}
+
+#mapas .mapa.nuke{
+    background-image: url(images/nuke.webp);
+    background-size: cover;
+}
+
+#mapas .mapa.vertigo{
+    background-image: url(images/vertigo.webp);
+    background-size: cover;
+}
+
+#mapas .mapa.overpass{
+    background-image: url(images/overpass.webp);
+    background-size: cover;
+}
+
+#mapas .mapa.dust2{
+    background-image: url(images/d2.webp);
+    background-size: cover;
+}
+
+/*----------------------------UTILIDAD----------------------------*/
+
+/*------------NFERNO------------*/
+
+#mapa-utilidad{
+    width: 100%;
+    height: 1000px;
 }

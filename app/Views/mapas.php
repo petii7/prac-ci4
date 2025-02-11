@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css\styles.css">
+    <link rel="stylesheet" href="<?= base_url('css/styles.css') ?>">
     <title>CSNades - Mapas</title>
 </head>
 <body>
@@ -19,7 +19,7 @@
     <main>
         <h2>Mapas</h2>
         <div id="mapas">
-            <div class="mapa inferno"><span class="texto-mapa">INFERNO</span></div>
+            <div class="mapa inferno" onclick="window.location.href='<?= base_url('/mapas/inferno'); ?>'"><span class="texto-mapa">INFERNO</span></div>
             <div class="mapa ancient"><span class="texto-mapa">ANCIENT</span></div>
             <div class="mapa anubis"><span class="texto-mapa">ANUBIS</span></div>
             <div class="mapa train"><span class="texto-mapa">TRAIN</span></div>

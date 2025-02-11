@@ -8,4 +8,9 @@ class Mapas extends BaseController
     {
         return view('mapas');
     }
+
+    public function inferno(): string
+    {
+        return view('utilidad/inferno');
+    }
 }
